@@ -18,6 +18,20 @@ public class TrackCoach implements Coach {
 		return "Just Do It: "+fortuneService.getFortune();
 	}
 
+	
+	// add initt methood
+	
+	public void doStartup() {
+		System.out.println("inside init methood");
+		
+	}
+	
+	
+	// add destroy method
+	
+	public void doDestroy() {
+		System.out.println("inside destroy methood");
+	}
 }
 
 
